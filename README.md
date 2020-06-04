@@ -1,6 +1,6 @@
 <img src="api.png" align="right" />
 
-# Coding Challenge 28 💻 LANGO - The Complete Dev Language API
+# Coding Challenge 28 | LANGO - The Complete Dev Language API 💻
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/MattCSmith/coding_challenge-28?style=for-the-badge)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/MattCSmith/coding_challenge-28/main?style=for-the-badge)
