@@ -1,0 +1,21 @@
+name: LanguageAPI CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install nodejs
+      uses: actions/setup-node@v1
+      with:
+        node-version: '11.10.1'
+    - run: yarn install --frozen-lockfile
+    - run: yarn test
