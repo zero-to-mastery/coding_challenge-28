@@ -54,10 +54,8 @@ To get started with this project, be sure to check out the issues board [here](h
 - Use `npm test` or `yarn test` to run the tests.
 
 #### Tests breakdown.
-1. **framework-features.test.js** - tests all the framework features present in `/json/frameworks/{framework_name}/features/`
-2. **framework.test.js** - tests all the frameworks `/json/frameworks/{framework_name}/{framework_name}.js`
-3. **language-features.test.js** - tests all the language features present in `/json/languages/{language_name}/features/`
-4. **language.test.js** - tests all the languages `/json/languages/{language_name}/{language_name}.js`
+1. **framework.test.js** - tests all the frameworks `/json/frameworks/{framework_name}/{framework_name}.js`
+2. **language.test.js** - tests all the languages `/json/languages/{language_name}/{language_name}.js`
 
 ## Resource for working with API's
 1. [Complete Web Developer](https://academy.zerotomastery.io/courses/complete-web-developer-in-2020-zero-tomastery/lectures/15572533?affcode=441520_yjdmgl4p&?utm_source=github&utm_medium=coding_challenge-28) course over at the [ZTM Academy](https://zerotomastery.io/academy/?utm_source=github&utm_medium=coding_challenge-28)
