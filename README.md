@@ -3,7 +3,7 @@
 # Coding Challenge 28 | LANGO - The Complete Dev Language API 💻
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/MattCSmith/coding_challenge-28?style=for-the-badge)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/MattCSmith/coding_challenge-28/main?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/MattCSmith/coding_challenge-28/LanguageAPI%20CI?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/MattCSmith/coding_challenge-28?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/MattCSmith/coding_challenge-28?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MattCSmith/coding_challenge-28?style=for-the-badge)
@@ -40,7 +40,7 @@ If you are using an editor other than Visual Studio code, do a quick google for 
 
 ## Getting Started / Installation
 
-To get started with this project, be sure to check out the Trello board [here](https://trello.com/invite/b/a6HV2wni/719405fe166fb668f02f84a4f4943869/web-dev-api), to pick up your next challenge. If you have any questions on getting started, ask in the [#coding-challenge channel](https://discordapp.com/channels/423464391791476747/434849407054381096/716684388028383272) in discord
+To get started with this project, be sure to check out the issues board [here](https://github.com/MattCSmith/coding_challenge-28/issues), to find a task. The pinned issues at the top of that page are generally considered on going and can have mutliple people working on them at same time. If you have any questions on getting started, ask in the [#coding-challenge channel](https://discordapp.com/channels/423464391791476747/434849407054381096/716684388028383272) in discord
 
 #### Installing and Setup
 
@@ -59,10 +59,9 @@ To get started with this project, be sure to check out the Trello board [here](h
 3. **language-features.test.js** - tests all the language features present in `/json/languages/{language_name}/features/`
 4. **language.test.js** - tests all the languages `/json/languages/{language_name}/{language_name}.js`
 
-## Note
-
-#### If you want to add a new language, please go through the Schemas(`/Schemas`) first.
-
+## Resource for working with API's
+1. [Complete Web Developer](https://academy.zerotomastery.io/courses/complete-web-developer-in-2020-zero-tomastery/lectures/15572533?affcode=441520_yjdmgl4p&?utm_source=github&utm_medium=coding_challenge-28) course over at the [ZTM Academy](https://zerotomastery.io/academy/?utm_source=github&utm_medium=coding_challenge-28)
+2. [Build A RESTful Api With Node.js And Express.Js Part One](https://medium.com/@purposenigeria/build-a-restful-api-with-node-js-and-express-js-d7e59c7a3dfb)
 
 ## Looking for more challenges?
 
