@@ -54,10 +54,8 @@ To get started with this project, be sure to check out the Trello board [here](h
 - Use `npm test` or `yarn test` to run the tests.
 
 #### Tests breakdown.
-1. **framework-features.test.js** - tests all the framework features present in `/json/frameworks/{framework_name}/features/`
-2. **framework.test.js** - tests all the frameworks `/json/frameworks/{framework_name}/{framework_name}.js`
-3. **language-features.test.js** - tests all the language features present in `/json/languages/{language_name}/features/`
-4. **language.test.js** - tests all the languages `/json/languages/{language_name}/{language_name}.js`
+1. **framework.test.js** - tests all the frameworks `/json/frameworks/{framework_name}/{framework_name}.js`
+2. **language.test.js** - tests all the languages `/json/languages/{language_name}/{language_name}.js`
 
 ## Note
 
