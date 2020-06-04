@@ -13,8 +13,6 @@
 
  */
 
-const languageFeatures = require("fs").readdirSync(require("path").join(__dirname, `./features`)).map(langFeature => langFeature.split(".js")[0]);
-
 // make sure the variable holding the language object("schema__language" in this case) is same as the file name
 const schema__language = {
   name: 'name of language',
