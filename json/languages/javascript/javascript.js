@@ -31,7 +31,7 @@ const javascript = {
       },
     ],
   },
-  typing_descipline: ['dynamic', 'duck'],
+  typing_discipline: ['dynamic', 'duck'],
   platform: ['cross-platform'],
   operating_system: ['all'],
   license: ['open standard'],
