@@ -31,12 +31,12 @@ const javascript = {
       },
     ],
   },
-  typing_descipline: ['dynamic', 'duck'],
-  platform: ['{{unknown}}'],
-  operating_system: ['{{unknown}}'],
-  license: ['{{unknown}}'],
+  typing_discipline: ['dynamic', 'duck'],
+  platform: ['cross-platform'],
+  operating_system: ['all'],
+  license: ['open standard'],
   examples: {
-    hello_world: 'brave enough to put some code here? xD',
+    hello_world: 'alert("Hello World")',
   },
 };
 
