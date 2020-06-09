@@ -51,7 +51,7 @@ const python = {
   operating_system: ['{{unknown}}'],
   license: ['PSFL'],
   example_snippets: {
-    hello_world: 'print "hello_world"'
+    hello_world: 'print("hello world!")'
   }
 }
 
