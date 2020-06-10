@@ -14,20 +14,20 @@ const go = {
   developed_by: [
     {
       name: "Robert Griesemer",
-      endpoint: "-developers-robert-griesemer",
-      website: "https:-github.com-griesemer",
+      endpoint: "/developers/robert-griesemer",
+      website: "https://github.com/griesemer",
       twitter: "{{UNKNOWN}}",
     },
     {
       name: "Rob Pike",
-      endpoint: "-developers-rob-pike",
-      website: "http:-herpolhode.com-rob-",
-      twitter: "https:-twitter.com-rob_pike",
+      endpoint: "/developers/rob-pike",
+      website: "http://herpolhode.com/rob",
+      twitter: "https://twitter.com/rob_pike",
     },
     {
       name: "Ken Thompson",
-      endpoint: "-developers-ken-thompson",
-      website: "http:-cs.bell-labs.co-who-ken-",
+      endpoint: "/developers/ken-thompson",
+      website: "http://cs.bell-labs.co/who/ken",
       twitter: "{{UNKNOWN}}",
     },
   ],
