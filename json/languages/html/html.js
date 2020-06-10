@@ -1,7 +1,7 @@
 const html = {
     name: 'Hypertext Markup Language',
     description_short: 'HTML is a markup language, used for structuring and presenting content on the World Wide Web',
-    description: 'Hypertext Markup Language is the only way to describe how to render documents in the web browser. Consists of elements and attributes, whichc makes it easy to learn, read and extense',
+    description: 'Hypertext Markup Language is the only way to describe how to render documents in the web browser. Consists of elements and attributes, which makes it easy to learn, read and extense',
     paradigm: ['{{UNKNOWN}}'],
     developed_by: [
       {
