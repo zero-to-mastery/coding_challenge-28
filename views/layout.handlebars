@@ -5,17 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lango</title>
-</head>
+  <link rel="stylesheet" href="/style/layout.css">
 
 <body>
   <header>
-
+    <nav class="top-navbar">
+      <ul class="logo">
+        <li>
+          <a class="nav-link" href="#">
+            Lango
+          </a>
+        </li>
+      </ul>
+      <ul class="left">
+        <li><input type="text" /></li>
+        <li><a class="nav-link" href="#">Documentation</a></li>
+      </ul>
+      <ul class="right">
+        <li><a class="nav-link" href="#">About</a></li>
+        <li><a class="nav-link" href="#">Changlog</a></li>
+        <li><a class="nav-link" href="#">Github</a></li>
+      </ul>
+    </nav>
   </header>
   {{!-- content of other pages will be shown passed as body --}}
   {{{ body }}}
 
   <footer>
-
+    <p>&#169; 2020 Zero To Mastery</p>
   </footer>
 </body>
 

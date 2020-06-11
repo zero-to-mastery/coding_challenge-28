@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 3007;
 
 const v1Routes = require("./v1/index");
 
+app.use(express.static(__dirname + "/public"));
+
 app.use(bodyParser.json());
 app.use(
 	bodyParser.urlencoded({
