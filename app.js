@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const handlebars = require("express-handlebars");
+const path = require("path");
 
 const app = express();
 
@@ -9,7 +10,8 @@ const PORT = process.env.PORT || 3007;
 
 const v1Routes = require("./v1/index");
 
-app.use(express.static(__dirname + "/public"));
+// added path for static assets
+app.use(express.static(path.join(__dirname, "views", "static")));
 
 app.use(bodyParser.json());
 app.use(
