@@ -1,73 +1,8 @@
-<style>
-  a {
-    color: rgb(55, 112, 255);
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: rgb(240, 111, 64);
-  }
-
-  .header h1 {
-    text-align: center;
-    color: rgb(55, 112, 255);
-  }
-
-  .header p {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .endpoint {
-    margin-left: 5%;
-    padding: 1px 20px 10px;
-    margin-bottom: 50px;
-    border: 0.5px solid rgb(15, 15, 15);
-    border-left: 10px solid rgb(55, 112, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    background: #1f1f1f;
-  }
-
-  .endpoint:hover {
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(92, 92, 92, 0.25);
-    -moz-box-shadow: 5px 5px 5px 0px rgba(92, 92, 92, 0.25);
-    box-shadow: 5px 5px 5px 0px rgba(92, 92, 92, 0.25);
-  }
-
-  .category {
-    display: grid;
-    grid-column-gap: 50px;
-    grid-template-columns: 1fr;
-  }
-
-  .category h4 {
-    font-weight: normal;
-    letter-spacing: 1px;
-  }
-
-  .endpoint span {
-    display: inline-block;
-    min-width: 60px;
-    text-align: center;
-    background: rgb(55, 112, 255);
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 5px 15px;
-    text-transform: uppercase;
-    font-weight: bolder;
-    margin-right: 10px;
-  }
-
-  hr {
-    width: 70vw;
-    border-color: rgb(55, 112, 255, 0.1);
-  }
-</style>
-
-<div class="header">
-  <h1>Lango Documentation</h1>
-  <hr />
+<div class="cover">
+  <h1 class="cover-text">The complete dev language API</h1>
+  <buttoni class="big-btn">Get started with Lango</button>
 </div>
+
 <h2>Endpoints</h2>
 <div class="category">
   {{#each endpoints}}
