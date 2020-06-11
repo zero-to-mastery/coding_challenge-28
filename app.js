@@ -25,7 +25,7 @@ app.engine(
 	"handlebars",
 	handlebars({
 		defaultLayout: "layout",
-		layoutsDir: __dirname + "/views",
+		layoutsDir: path.join(__dirname, "views"),
 	})
 );
 
