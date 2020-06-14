@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lango</title>
+  <link rel="stylesheet" href="/style/layout.css">
+  <link rel="stylesheet" href="/style/index.css">
+
+<body>
+  <header>
+    <nav class="top-navbar">
+      <ul>
+        <li>
+          <a id="logo" class="nav-link" href="#">
+            Lango
+          </a>
+        </li>
+      </ul>
+      <ul class="left">
+        <li><input class="outlined-input" type="text" placeholder="Search" /></li>
+        <li><button class="outlined-btn">Search</button></li>
+      </ul>
+      <ul class="right">
+        <li><a class="nav-link" href="#">Documentation</a></li>
+        <li><a class="nav-link" href="#">Changelog</a></li>
+        <li><a class="nav-link" href="https://github.com/zero-to-mastery/coding_challenge-28">Github</a></li>
+        <li><a class="nav-link" href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  {{!-- content of other pages will be shown passed as body --}}
+  {{{ body }}}
+
+  <footer>
+    <p class="footer">&#169; 2020 Zero To Mastery</p>
+  </footer>
+</body>
+
+</html>
