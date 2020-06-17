@@ -1,4 +1,4 @@
-const dataTypes = {
+const DataTypes = {
   name: "Data-Types",
   desription:
     "A data type specifies the type of data that a variable can store such as integer, floating, character etc.",
@@ -23,4 +23,4 @@ const dataTypes = {
   example: `int x = 45; double y = 100.00;`,
 };
 
-module.exports = dataTypes;
+module.exports = DataTypes;

@@ -1,4 +1,4 @@
-const variable = {
+const Variable = {
   name: "Variables",
   description:
     "A variable is a name of memory location. It is used to store data. Its value can be changed and it can be reused many times.It is a way to represent memory location through symbol so that it can be easily identified.",
@@ -23,4 +23,4 @@ const variable = {
   ],
 };
 
-module.exports = variable;
+module.exports = Variable;
