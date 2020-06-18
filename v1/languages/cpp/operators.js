@@ -1,4 +1,4 @@
-const operators = {
+const Operators = {
   name: "operators",
   desription:
     "An operator in C++ is a special symbol that tells the compiler to perform a specific mathematical or logical operation.",
@@ -29,4 +29,4 @@ const operators = {
   ],
 };
 
-module.exports = operators;
+module.exports = Operators;

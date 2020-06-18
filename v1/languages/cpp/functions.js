@@ -1,4 +1,4 @@
-const functions = {
+const Functions = {
   name: "Functions",
   description:
     "In c++ functions have a return type (it's a keyword), function name and arguments to be passed with their data_type. Their lifecycle consists of funciton calling and function definition. Fucntion declaration just tells the compiler about the return type, name of function and types of arguments to be accepted. In C++ we can pass multiple argumetns to a function. Function call have actual arguments whereas function definition have formal arguments. They maintain modularity in our code and decreases the code length.",
@@ -12,7 +12,8 @@ const functions = {
   example: {
     declaration: "float fun(float,int);",
     call: "float val = fun(5.5 , 10);",
-    definition: "float fun(float x,int y) { float ans=x+y;  return ans;} //ans=15.5 is returned",
+    definition:
+      "float fun(float x,int y) { float ans=x+y;  return ans;} //ans=15.5 is returned",
   },
   methods: [
     {
@@ -24,7 +25,7 @@ const functions = {
         call: "fun(a , b); //let's say a=5.5 and b=10",
         definition:
           "void fun(float x,int y) { x+=1; y+=1; } //value of a=5.5, b=10, x=6.5, y=11",
-      }
+      },
     },
     {
       name: "Pass by reference",
@@ -35,8 +36,8 @@ const functions = {
         call: "fun(a , b); //let's say a=5.5 and b=10",
         definition:
           "void fun(float &x,int &y) { x+=1; y+=1; } //value of a=6.5, b=11, x=6.5, y=11",
-      }
-    }
+      },
+    },
   ],
   notes: [
     {
@@ -50,8 +51,8 @@ const functions = {
     {
       note_3:
         "All the variables declared inside function definition are destroyed if they don't belong to 'static' storage class.",
-    }
+    },
   ],
 };
 
-module.exports = functions;
+module.exports = Functions;

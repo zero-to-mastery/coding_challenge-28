@@ -1,4 +1,4 @@
-const arrays = {
+const Arrays = {
   name: "Arrays",
   description:
     "Like other programming languages, array in C++ is a group of similar types of elements that have contiguous memory location.In C++ std::array is a container that encapsulates fixed size arrays. In C++, array index starts from 0. We can store only fixed set of elements in C++ array.",
@@ -20,4 +20,4 @@ const arrays = {
   ],
 };
 
-module.exports = arrays;
+module.exports = Arrays;
