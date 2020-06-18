@@ -1,5 +1,3 @@
-const { example, description } = require("../cpp/arrays");
-
 const selectors = {
   name: "CSS Selectors",
   description:
@@ -191,3 +189,5 @@ const selectors = {
     },
   ],
 };
+
+module.exports = selectors;
