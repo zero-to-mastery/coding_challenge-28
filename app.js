@@ -29,7 +29,7 @@ app.engine(
 	})
 );
 
-app.use("/v1", v1Routes);
+app.use("/api/v1", v1Routes);
 
 app.listen(PORT, () => {
 	console.log(`Server is running on port: ${PORT}`);

@@ -6,8 +6,8 @@ route.get("/:language", (req, res) => {
   res.send(currentLanguage)
 });
 
-route.get("/:language/lang-features/:feature", (req, res) => {
-  const currentFeature = require(`../../json/languages/${req.params.language}/${req.params.language}-features/${req.params.feature}`);
+route.get("/:language/features/:feature", (req, res) => {
+  const currentFeature = require(`../../v1/languages/${req.params.language}/${req.params.feature}`);
   res.send(currentFeature);
 });
 
