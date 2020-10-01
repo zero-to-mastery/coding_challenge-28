@@ -51,3 +51,5 @@ for(let i=0; i<langFilesArray.length; i++) {
 
   })
 }
+
+I would like to know how this works please can you explain? also dont reject this please .
